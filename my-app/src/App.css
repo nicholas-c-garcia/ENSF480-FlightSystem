@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap');
+
+body > #root > div {
+  height: 100vh;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+}
+
+
+button {
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+/* -------------------------- Landing Page -------------------------- */
+
+
+#page {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+#header {
+  display: flex;
+  flex-direction: row;
+  background-color: #524E58;
+  justify-content: space-between;
+  height: 15%;
+  width: 100%; 
+  padding-top: 1%;
+}
+
+#browse-flights {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1%;
+  height: 40%;
+}
+
+#landing-page {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+#white-landing {
+  display: flex;
+  flex-direction: column;
+  flex: 70%;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  height: 100%;
+}
+
+#dark-landing {
+  display: flex;
+  flex-direction: column;
+  flex: 30%;
+  justify-content: center;
+  align-items: center;
+  background: #524E58;
+  height: 100%;
+  color: white;
+}
+
+#landing-form {
+  display: flex;
+  flex-direction: column;
+}
+
+#user-info {
+  width: 469px;
+  height: 58px;
+  background-color: #E4EBE9;
+  border-radius: 20px;
+  margin: 10px 0px 10px 0px;
+  border: none;
+  stroke-width: 1px;
+  stroke: #FFF;
+}
+
+#submit-button {
+  width: 250px;
+  height: 55px;
+  background-color: #524E58;
+  border-radius: 40px;
+  color: #FFF;
+  border: none;
+  margin-bottom: 2%;
+}
+
+#signup-button {
+  width: 250px;
+  height: 64px;
+  background-color: #524E58;
+  border-radius: 40px;
+  color: #FFF;
+  border: 2px solid;
+  border-color: white;
+}
+
+#login-button {
+  width: 250px;
+  height: 64px;
+  background-color: #E4EBE9;
+  border-radius: 40px;
+  color: #524E58;
+  border: 2px solid;
+}
+
+#input-elements {
+  border: none;
+  border-bottom: 2px solid #524E58; 
+  outline: none;
+  padding: 8px; 
+  font-size: 16px;
+  margin-bottom: 10px;
+  width: 20%;
+  height: 20%;
+  margin: 2%
+}
+
+#search-attributes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 5%;
+  height: 50%;
+  width: 100%; 
+  position: relative;
+}
+
+
+
+#input-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 20px;
+  border: 0px solid #E4EBE9;
+  background: #FFF;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  height: auto;
+  width: 90%; 
+  padding: 20px 40px 40px 40px;
+}
+/* -------------------------- Landing Page -------------------------- */
+
+
+/* -------------------------- Button Modifications -------------------------- */
+
+#submit-button {
+  cursor: pointer;
+}
+
+#login-button {
+  cursor: pointer;
+}
+
+/* -------------------------- Button Modifications -------------------------- */

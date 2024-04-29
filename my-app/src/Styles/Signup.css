@@ -1,0 +1,33 @@
+#sign-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+#sign-up-form {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+}
+
+
+#user-info-sign-up {
+    width: 469px;
+    height: 48px;
+    background-color: #E4EBE9;
+    border-radius: 20px;
+    margin: 10px 0px 10px 0px;
+    border: none;
+    stroke-width: 1px;
+    stroke: #FFF;
+  }
+
+  #registered-user-section {
+    display: block;
+    flex-direction: row;
+    justify-content: center;
+  }
